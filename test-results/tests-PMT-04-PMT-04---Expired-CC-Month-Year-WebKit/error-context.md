@@ -10,10 +10,10 @@
           - button "Close" [ref=e7] [cursor=pointer]:
             - generic [ref=e8] [cursor=pointer]: ×
         - generic [ref=e10]:
-          - generic [ref=e11]: "Total: 6500"
+          - generic [ref=e11]: "Total: 8450"
           - generic [ref=e12]:
             - generic [ref=e13]: "Name:"
-            - 'textbox "Total: 6500 Name:" [ref=e14]': Marcelo Crisol
+            - 'textbox "Total: 8450 Name:" [ref=e14]': Marcelo Crisol
           - generic [ref=e15]:
             - generic [ref=e16]: "Country:"
             - textbox "Country:" [ref=e17]: Argentonia
@@ -153,24 +153,48 @@
             - cell "Delete" [ref=e134]:
               - link "Delete" [ref=e135]:
                 - /url: "#"
-    - generic [ref=e136]:
-      - heading "Total" [level=2] [ref=e137]
-      - heading "6500" [level=3] [ref=e140]
-      - button "Place Order" [ref=e141]
-  - generic [ref=e143]:
-    - generic [ref=e146]:
-      - heading "About Us" [level=4] [ref=e147]:
-        - generic [ref=e148]: About Us
-      - paragraph [ref=e149]: We believe performance needs to be validated at every stage of the software development cycle and our open source compatible, massively scalable platform makes that a reality.
-    - generic [ref=e152]:
-      - heading "Get in Touch" [level=4] [ref=e153]:
-        - generic [ref=e154]: Get in Touch
-      - paragraph [ref=e155]: "Address: 2390 El Camino Real"
-      - paragraph [ref=e156]: "Phone: +440 123456"
-      - paragraph [ref=e157]: "Email: demo@blazemeter.com"
-    - heading "PRODUCT STORE" [level=4] [ref=e161]:
-      - img [ref=e162]
+          - row "Nexus 6 650 Delete" [ref=e136]:
+            - cell [ref=e137]:
+              - img [ref=e138]
+            - cell "Nexus 6" [ref=e139]
+            - cell "650" [ref=e140]
+            - cell "Delete" [ref=e141]:
+              - link "Delete" [ref=e142]:
+                - /url: "#"
+          - row "Nexus 6 650 Delete" [ref=e143]:
+            - cell [ref=e144]:
+              - img [ref=e145]
+            - cell "Nexus 6" [ref=e146]
+            - cell "650" [ref=e147]
+            - cell "Delete" [ref=e148]:
+              - link "Delete" [ref=e149]:
+                - /url: "#"
+          - row "Nexus 6 650 Delete" [ref=e150]:
+            - cell [ref=e151]:
+              - img [ref=e152]
+            - cell "Nexus 6" [ref=e153]
+            - cell "650" [ref=e154]
+            - cell "Delete" [ref=e155]:
+              - link "Delete" [ref=e156]:
+                - /url: "#"
+    - generic [ref=e157]:
+      - heading "Total" [level=2] [ref=e158]
+      - heading "8450" [level=3] [ref=e161]
+      - button "Place Order" [ref=e162]
+  - generic [ref=e164]:
+    - generic [ref=e167]:
+      - heading "About Us" [level=4] [ref=e168]:
+        - generic [ref=e169]: About Us
+      - paragraph [ref=e170]: We believe performance needs to be validated at every stage of the software development cycle and our open source compatible, massively scalable platform makes that a reality.
+    - generic [ref=e173]:
+      - heading "Get in Touch" [level=4] [ref=e174]:
+        - generic [ref=e175]: Get in Touch
+      - paragraph [ref=e176]: "Address: 2390 El Camino Real"
+      - paragraph [ref=e177]: "Phone: +440 123456"
+      - paragraph [ref=e178]: "Email: demo@blazemeter.com"
+    - heading "PRODUCT STORE" [level=4] [ref=e182]:
+      - img [ref=e183]
       - text: PRODUCT STORE
-  - contentinfo [ref=e163]:
-    - paragraph [ref=e164]: Copyright © Product Store 2017
+  - contentinfo [ref=e184]:
+    - paragraph [ref=e185]: Copyright © Product Store 2017
 ```

@@ -2,7 +2,7 @@
 
 ```yaml
 - generic [ref=e1]:
-  - dialog "Place order" [active] [ref=e2]:
+  - dialog "Place order" [ref=e2]:
     - document [ref=e3]:
       - generic [ref=e4]:
         - generic [ref=e5]:
@@ -28,7 +28,7 @@
             - textbox "Month:" [ref=e26]: "12"
           - generic [ref=e27]:
             - generic [ref=e28]: "Year:"
-            - textbox "Year:" [ref=e29]: "30"
+            - textbox "Year:" [active] [ref=e29]: "30"
         - generic [ref=e31]:
           - button "Close" [ref=e32]
           - button "Purchase" [ref=e33]
@@ -85,20 +85,20 @@
       - heading "Total" [level=2] [ref=e74]
       - heading "650" [level=3] [ref=e77]
       - button "Place Order" [ref=e78]
-  - generic [ref=e81]:
-    - generic [ref=e84]:
-      - heading "About Us" [level=4] [ref=e85]:
-        - generic [ref=e86]: About Us
-      - paragraph [ref=e87]: We believe performance needs to be validated at every stage of the software development cycle and our open source compatible, massively scalable platform makes that a reality.
-    - generic [ref=e90]:
-      - heading "Get in Touch" [level=4] [ref=e91]:
-        - generic [ref=e92]: Get in Touch
-      - paragraph [ref=e93]: "Address: 2390 El Camino Real"
-      - paragraph [ref=e94]: "Phone: +440 123456"
-      - paragraph [ref=e95]: "Email: demo@blazemeter.com"
-    - heading "PRODUCT STORE" [level=4] [ref=e99]:
-      - img [ref=e100]
+  - generic [ref=e80]:
+    - generic [ref=e83]:
+      - heading "About Us" [level=4] [ref=e84]:
+        - generic [ref=e85]: About Us
+      - paragraph [ref=e86]: We believe performance needs to be validated at every stage of the software development cycle and our open source compatible, massively scalable platform makes that a reality.
+    - generic [ref=e89]:
+      - heading "Get in Touch" [level=4] [ref=e90]:
+        - generic [ref=e91]: Get in Touch
+      - paragraph [ref=e92]: "Address: 2390 El Camino Real"
+      - paragraph [ref=e93]: "Phone: +440 123456"
+      - paragraph [ref=e94]: "Email: demo@blazemeter.com"
+    - heading "PRODUCT STORE" [level=4] [ref=e98]:
+      - img [ref=e99]
       - text: PRODUCT STORE
-  - contentinfo [ref=e101]:
-    - paragraph [ref=e102]: Copyright © Product Store 2017
+  - contentinfo [ref=e100]:
+    - paragraph [ref=e101]: Copyright © Product Store 2017
 ```

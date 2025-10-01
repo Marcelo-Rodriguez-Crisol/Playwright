@@ -2,7 +2,7 @@
 
 ```yaml
 - generic [ref=e1]:
-  - dialog "Place order" [active] [ref=e2]:
+  - dialog "Place order" [ref=e2]:
     - document [ref=e3]:
       - generic [ref=e4]:
         - generic [ref=e5]:
@@ -10,10 +10,10 @@
           - button "Close" [ref=e7] [cursor=pointer]:
             - generic [ref=e8] [cursor=pointer]: ×
         - generic [ref=e10]:
-          - generic [ref=e11]: "Total: 5850"
+          - generic [ref=e11]: "Total: 7800"
           - generic [ref=e12]:
             - generic [ref=e13]: "Name:"
-            - 'textbox "Total: 5850 Name:" [ref=e14]': Marcelo Crisol
+            - 'textbox "Total: 7800 Name:" [ref=e14]': Marcelo Crisol
           - generic [ref=e15]:
             - generic [ref=e16]: "Country:"
             - textbox "Country:" [ref=e17]: Argentonia
@@ -28,7 +28,7 @@
             - textbox "Month:" [ref=e26]: "12"
           - generic [ref=e27]:
             - generic [ref=e28]: "Year:"
-            - textbox "Year:" [ref=e29]: "24"
+            - textbox "Year:" [active] [ref=e29]: "24"
         - generic [ref=e31]:
           - button "Close" [ref=e32]
           - button "Purchase" [ref=e33]
@@ -145,24 +145,48 @@
             - cell "Delete" [ref=e127]:
               - link "Delete" [ref=e128] [cursor=pointer]:
                 - /url: "#"
-    - generic [ref=e129]:
-      - heading "Total" [level=2] [ref=e130]
-      - heading "5850" [level=3] [ref=e133]
-      - button "Place Order" [ref=e134]
-  - generic [ref=e137]:
-    - generic [ref=e140]:
-      - heading "About Us" [level=4] [ref=e141]:
-        - generic [ref=e142]: About Us
-      - paragraph [ref=e143]: We believe performance needs to be validated at every stage of the software development cycle and our open source compatible, massively scalable platform makes that a reality.
-    - generic [ref=e146]:
-      - heading "Get in Touch" [level=4] [ref=e147]:
-        - generic [ref=e148]: Get in Touch
-      - paragraph [ref=e149]: "Address: 2390 El Camino Real"
-      - paragraph [ref=e150]: "Phone: +440 123456"
-      - paragraph [ref=e151]: "Email: demo@blazemeter.com"
-    - heading "PRODUCT STORE" [level=4] [ref=e155]:
-      - img [ref=e156]
+          - row "Nexus 6 650 Delete" [ref=e129]:
+            - cell [ref=e130]:
+              - img [ref=e131]
+            - cell "Nexus 6" [ref=e132]
+            - cell "650" [ref=e133]
+            - cell "Delete" [ref=e134]:
+              - link "Delete" [ref=e135] [cursor=pointer]:
+                - /url: "#"
+          - row "Nexus 6 650 Delete" [ref=e136]:
+            - cell [ref=e137]:
+              - img [ref=e138]
+            - cell "Nexus 6" [ref=e139]
+            - cell "650" [ref=e140]
+            - cell "Delete" [ref=e141]:
+              - link "Delete" [ref=e142] [cursor=pointer]:
+                - /url: "#"
+          - row "Nexus 6 650 Delete" [ref=e143]:
+            - cell [ref=e144]:
+              - img [ref=e145]
+            - cell "Nexus 6" [ref=e146]
+            - cell "650" [ref=e147]
+            - cell "Delete" [ref=e148]:
+              - link "Delete" [ref=e149] [cursor=pointer]:
+                - /url: "#"
+    - generic [ref=e150]:
+      - heading "Total" [level=2] [ref=e151]
+      - heading "7800" [level=3] [ref=e154]
+      - button "Place Order" [ref=e155]
+  - generic [ref=e157]:
+    - generic [ref=e160]:
+      - heading "About Us" [level=4] [ref=e161]:
+        - generic [ref=e162]: About Us
+      - paragraph [ref=e163]: We believe performance needs to be validated at every stage of the software development cycle and our open source compatible, massively scalable platform makes that a reality.
+    - generic [ref=e166]:
+      - heading "Get in Touch" [level=4] [ref=e167]:
+        - generic [ref=e168]: Get in Touch
+      - paragraph [ref=e169]: "Address: 2390 El Camino Real"
+      - paragraph [ref=e170]: "Phone: +440 123456"
+      - paragraph [ref=e171]: "Email: demo@blazemeter.com"
+    - heading "PRODUCT STORE" [level=4] [ref=e175]:
+      - img [ref=e176]
       - text: PRODUCT STORE
-  - contentinfo [ref=e157]:
-    - paragraph [ref=e158]: Copyright © Product Store 2017
+  - contentinfo [ref=e177]:
+    - paragraph [ref=e178]: Copyright © Product Store 2017
 ```

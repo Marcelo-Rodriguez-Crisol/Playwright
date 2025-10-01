@@ -19,7 +19,7 @@
             - textbox "Country:" [ref=e17]: Argentonia
           - generic [ref=e18]:
             - generic [ref=e19]: "City:"
-            - textbox "City:" [ref=e20]: Good Aires
+            - textbox "City:" [ref=e20]
           - generic [ref=e21]:
             - generic [ref=e22]: "Credit card:"
             - textbox "Credit card:" [ref=e23]: "1234567812345678"

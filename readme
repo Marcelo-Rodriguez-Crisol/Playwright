@@ -8,15 +8,18 @@ purchases and that expired credit cards are not accepted to make
 transactions.
 
 I had to set up everything for the firs time since this is the 
-first bit of automation I do ever. I find it very easy to create a basic case 
-and I have come through several doubts I will be clearing up in the following 
-days to better myself on this skill
+first bit of automation I do ever. I found it very easy to create a basic cases 
+and I have pushed through several issues I will be clearing up in the following 
+days to better myself on this skill of automation
 1. I had a few problems with the setup, chatgpt helped me with those errors
 2. PMT-04 started failing but I didn't understand why. ChatGPT added a constant
 with a page.locator as sweet.message for something that was a bit harder to find.
-3. I'd edit some of the code to expect the hypothetical CVV code for it to fail
+Didn't quite understand the fix, but I'll look into it.
+3. I edited some of the code to expect the hypothetical CVV code for it to fail
 4. Since this is my first time ever creating some scenarios for automation
 I asked ChatGPT several of questions.
 https://chatgpt.com/share/68dd7a3f-79b0-800d-b983-b5fe5fde2bc8
 
-With more time, I'd prepare an automated report that I've seen its possible 
+I was able to generate an automatic report and I am so hyped about this!
+Thanks for the opportunity to learn and amazing skill! :D
+
