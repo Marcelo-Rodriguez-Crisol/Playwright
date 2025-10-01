@@ -1,25 +1,22 @@
-I've decided to automate the following test cases:
-PMT-01 - Guest user purchase
-PMT-11 - Logged user purchase
-PMT-04 - Expired CC Month/Year
-These are critical to the business, and often the most important
-With these we validate that both type of users are able to perform
-purchases and that expired credit cards are not accepted to make
-transactions.
+I've decided to automate the following test cases: 
+PMT-01 (Guest user purchase)
+PMT-11 (Logged user purchase)
+PMT-04 (Expired CC Month/Year)
 
-I had to set up everything for the firs time since this is the 
-first bit of automation I do ever. I found it very easy to create a basic cases 
-and I have pushed through several issues I will be clearing up in the following 
-days to better myself on this skill of automation
-1. I had a few problems with the setup, chatgpt helped me with those errors
-2. PMT-04 started failing but I didn't understand why. ChatGPT added a constant
-with a page.locator as sweet.message for something that was a bit harder to find.
-Didn't quite understand the fix, but I'll look into it.
-3. I edited some of the code to expect the hypothetical CVV code for it to fail
-4. Since this is my first time ever creating some scenarios for automation
-I asked ChatGPT several of questions.
+These are critical to the business and are often the most important ones. With these, we validate that both types of users are able to complete purchases and that expired credit cards are not accepted for transactions.
+
+I had to set up everything for the first time since this is the first bit of automation I've ever done. I found it very easy to create the basic cases, and I've pushed through several issues that I'll be clearing up in the following days to better myself in this skill.
+
+I had a few problems with the setup; ChatGPT helped me with those errors.
+
+PMT-04 started failing, but I didn't understand why. ChatGPT added a constant with a page.locator as a sweet.message for something that was a bit harder to find. I didn't quite understand the fix, but I'll look into it.
+
+I edited some of the code to expect the hypothetical CVV code to fail.
+
+Since this is my first time ever creating automation scenarios, I asked ChatGPT several questions. 
+
 https://chatgpt.com/share/68dd7a3f-79b0-800d-b983-b5fe5fde2bc8
 
-I was able to generate an automatic report and I am so hyped about this!
-Thanks for the opportunity to learn and amazing skill! :D
-
+I was able to generate an automatic report as well, and I am so hyped about all this!
+Thanks for the opportunity to learn an amazing skill! :D
+I'll continue developing and learning this for sure.
