@@ -1,32 +1,29 @@
-# --- Default: ignore everything ---
+# --- Ignore everything by default ---
 /*
 
-# --- Mantener este archivo ---
+# --- Mantener estos archivos clave ---
 !/.gitignore
-
-# --- Incluir SOLO lo necesario para que alguien más pueda ejecutar los tests ---
-# Configuración y metadatos
-!/playwright.config.*
 !/package.json
 !/package-lock.json
 !/pnpm-lock.yaml
 !/yarn.lock
+!/playwright.config.*
 !/tsconfig.json
 !/*.md
 !/README*
-!/.eslintrc*
-!/.prettierrc*
 
-# Código de pruebas y utilidades de pruebas
+# --- INCLUIR TESTS (carpeta y todo su contenido) ---
+!/tests/
 !/tests/**
+
+# (si usás utilidades de test separadas, destapalas)
 !/fixtures/**
 !/pages/**
 !/helpers/**
 !/data/**
 !/resources/**
 
-# --- Asegurar que NUNCA subimos artefactos/outputs temporales ---
-# Playwright outputs
+# --- EXCLUIR ARTEFACTOS/REPORTES/BUILD ---
 /test-results/
 /playwright-report/
 /blob-report/
@@ -36,20 +33,16 @@
 *.webm
 /screenshots/
 /videos/
-
-# Node / build
-/node_modules/
+coverage/
+.nyc_output/
 dist/
 build/
 out/
-coverage/
-.nyc_output/
+node_modules/
 
-# Env / secretos
+# --- Secretos / SO / IDE / temporales ---
 .env
 .env.*.local
-
-# SO / IDE
 .DS_Store
 Thumbs.db
 Desktop.ini
@@ -57,8 +50,6 @@ $RECYCLE.BIN/
 .vscode/
 .idea/
 *.iml
-
-# Logs / temporales
 *.log
 *.tmp
 *.swp
